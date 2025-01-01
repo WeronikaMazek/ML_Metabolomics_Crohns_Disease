@@ -2,7 +2,7 @@
 Machine learning applications in the analysis of GC-MS metabolomics data.
 
 ## Objective
-The primary goal of this analysis is to determine which sample type—breath, blood, urine, or faeces—provides the most diagnostic signature for Crohn's disease (CD). Using machine learning (ML) techniques, we aim to identify patterns in GC-MS metabolomics data that differentiate CD samples from healthy controls.
+The primary goal of this analysis is to determine which sample type—breath, blood, urine, or faeces—provides the most diagnostic signature for Crohn's disease (CD). By building and evaluating machine learning models, we aim to identify patterns in GC-MS metabolomics data that differentiate CD samples from healthy controls.
 
 ## Libraries and Packages Used
 
