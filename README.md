@@ -24,10 +24,8 @@ Loading MATLAB .mat files for data import.
 ***Scikit-learn (sklearn)- machine learning library, including:***
 
 Model Development and Training:
-
-***Support Vector Machines (svm, SVC)*** 
-
-***Random Forest (RandomForestClassifier)*** 
+*Support Vector Machines (svm, SVC)*
+; *Random Forest (RandomForestClassifier)*
 
 Data Preprocessing: 
 *StandardScaler, MinMaxScaler:* To normalize data, as SVMs are sensitive to feature magnitudes.
@@ -45,9 +43,6 @@ Performance Metrics:
 Permutation Testing:
 *permutation_test_score:* To test model performance against random label assignments.
 ; *permutation_importance:* For assessing the importance of features via shuffling.
-
-Additional Utilities: 
-*SciPy Bootstrap (scipy.stats.bootstrap):* For resampling methods and confidence interval estimation.
 
 ### Acknowledgments
 All libraries used are open-source and maintained by their respective contributors.
