@@ -13,7 +13,7 @@ The RF model outperformed the SVM model (details below).
 
 ## Folder Structure
 
-Below is an overview of the folder structure and the analyses performed.
+The following provides an overview of the folder structure, the analyses conducted, and key highlights regarding the performance of the models.
 
 ### data_preprocessing_and_eda/
 This folder contains the *preprocess_eda_notebook.ipynb* file, which focuses on data preprocessing and exploratory data analysis (EDA). 
