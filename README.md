@@ -1,10 +1,15 @@
 # ML_Metabolomics_Crohns_Disease
 Machine learning applications in the analysis of GC-MS metabolomics data.
 
-This repository contains the workflow for analyding metabolomic data associated with Crohn's Disease. The project consists of data preprocessing, exploratory data analysis (EDA), and machine learning classification using Support Vector Machine (SVM) and Random Forest models.
+This repository contains the workflow for analyding metabolomic data associated with Crohn's Disease. The project consists of data preprocessing, exploratory data analysis (EDA), and machine learning classification using Support Vector Machine (SVM) and Random Forest (RF) models.
 
 ## Objective
 The primary goal of this analysis is to determine which sample type—breath, blood, urine, or faeces—provides the most diagnostic signature for Crohn's disease (CD). By building and evaluating machine learning models, we aim to identify patterns in GC-MS metabolomics data that differentiate CD samples from healthy controls.
+
+## Classification Outcomes Across Sample Types
+
+Faecal samples achieved the highest classification accuracy among all sample types.
+The RF model outperformed the SVM model (details below).
 
 ## Folder Structure
 
