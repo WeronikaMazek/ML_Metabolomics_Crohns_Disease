@@ -29,32 +29,21 @@ This folder contains the *SVM_SVC_Model_Notebook.ipynb*, which implements an SVM
 
 *Highlights:*
 
-Kernel Evaluation: Comprehensive evaluation of kernel functions, with the RBF kernel achieving optimal performance (Training Accuracy: 100%, Cross-Validation Accuracy: 79%). Sigmoid kernel achieved higher cross-validation accuracy (87%) but showed underfitting tendencies. 
+Optimal parameters: C=1, gamma=1e-04. Achieved 100% Training Accuracy and 79% Cross-Validation Accuracy.
 
-Hyperparameter Tuning:
-Optimal parameters: C=1, gamma=1e-04.
+The SVM classifier achieved a Permutation Test Score of 0.79 when applied to the real data. The p-value for the real data was found to be 0.01698, reinforcing the significance of the results. On the other hand, when applied to randomised data, the model's performance dropped with a Permutation Test Score of 0.31 and a p-value of 0.944, suggesting that the model relies heavily on genuine features rather than random noise.
 
 Feature Importance:
 Permutation importance identified key retention times around 13.87 min and 22.8 min, highlighting critical metabolic features.
 
-Model Validation:
-5-fold cross-validation and permutation tests confirmed statistically significant results (p-value: 0.017).
-
 ### Random_Forest_Model/
-This folder includes the Random_Forest_Model_Notebook.ipynb, which focuses on training and evaluating a Random Forest model.
+This folder includes the *Random_Forest_Model_Notebook.ipynb*, which focuses on training and evaluating a Random Forest model.
 
 *Highlights:*
 
-Hyperparameter Optimisation:
+Optimal configuration: max_depth=None, max_features='log2', n_estimators=200, min_samples_split=2. Achieved 100% Training Accuracy and 88% Cross-Validation Accuracy.
 
-Optimal configuration: max_depth=None, max_features='log2', n_estimators=200, min_samples_split=2.
-Achieved 100% Training Accuracy and 88% Cross-Validation Accuracy.
-
-Model Validation:
-Stratified 5-fold cross-validation and permutation tests yielded statistically significant results (p-value: 0.009).
-
-Performance: Outperformed SVM in overall accuracy and robustness, achieving a classification accuracy of 83.71% on faecal samples.
-
+The Random Forest model achieved a Permutation Test Score of 0.82 on the real data, showing strong predictive power. The p-value for the real data was 0.00899, indicating the results are statistically significant. In contrast, when tested on randomized data, the model's performance was reduced with a Permutation Test Score of 0.53 and a p-value of 0.419, pointing to the importance of genuine features for accurate classification.
 
 ## Libraries and Packages Used
 
